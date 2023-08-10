@@ -1,0 +1,92 @@
+
+.footer {
+    background: #000;
+    padding: 15px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 0.5% 0%;
+    padding: 0.1% 0%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+    text-align: center; /* Canh giữa các liên kết */
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0 auto; /* Canh giữa các icon trong thẻ a */
+    display: block; /* Để icon là một khối (block element) */
+}
+
+@media (max-width: 720px) {
+    .footer {
+        text-align: left;
+        padding: 3%;
+    }
+    .footer .row ul li {
+        display: block;
+        margin: 5px 0px;
+        text-align: left;
+    }
+    .footer .row a i {
+        margin: 0 auto 5px; /* Canh giữa các icon và tạo khoảng cách dưới */
+    }
+}
+.footer .row.center-text {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Thêm các thuộc tính flexbox để căn giữa các phần tử con */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Thêm các thuộc tính flexbox để căn giữa các icon trong social-icons */
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    color: #000;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+    background-color: #000;
+}

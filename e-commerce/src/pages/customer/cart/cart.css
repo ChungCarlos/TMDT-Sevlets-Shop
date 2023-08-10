@@ -1,0 +1,264 @@
+#main-outlet-cart{
+    width: 68%;
+    height: 800px;
+    float: left;
+}
+#display-cart{
+    width: 100%;
+}
+#cart-container{
+    width: 100%;
+    height: 100%;
+}
+#cart-footer{
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+#cart-customer-profile{
+    width: 30%;
+    float: left;
+    height: 800px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#main-cart{
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: flex;
+}
+.profile-tab{
+    font-family: Raleway, sans-serif;
+    color: black;
+}
+.profile-tab:hover{
+    color: black;
+}
+.profile-tab.active{
+    color: #fe5502;
+}
+#footer-cart{
+    width: 100%;
+    height: 200px;
+    clear: both;
+}
+#profile-box{
+    width: 80%;
+    height: 50%;
+    margin-left: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 18px 24px;
+
+}
+
+#profile-box #profile-image{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#profile-image img{
+    width: 150px;
+    border-radius: 50%;
+}
+#customer-info{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+#customer-info a{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+#customer-info a:hover{
+    color: darkorange;
+}
+
+/*Cart*/
+#cart-list{
+    width: 100%;
+
+}
+#cart-header{
+    width: 100%;
+    height: 120px;
+    font-size: 17px;
+}
+#overflow-cart{
+    height: 500px;
+    width: 100%;
+    overflow-y: auto;
+}
+#first-cart-header{
+    width: 45%;
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#second-cart-header{
+    width: 45%;
+    height: 100%;
+    float: right;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#second-cart-header .second-cart-header-items{
+    width: 25%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-product{
+    width: 100%;
+    height: 200px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 20px;
+}
+.cart-product-name-image{
+    width: 45%;
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.cart-product-name-image img{
+    height: 120px;
+    width: 120px;
+}
+.cart-product-name-image b{
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.cart-product-info{
+    width: 45%;
+    height: 100%;
+    float: right;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cart-product-info .info-items{
+    width: 25%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Section-buying*/
+#section-buying{
+    height: 100px;
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+    left: 80px;
+    box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 24px;
+    font-size: 20px;
+    background: #282c34;
+    color: white;
+    border-radius: 2px;
+}
+#first-section-buying{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    float: left;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+#first-section-buying span{
+    margin-left: 30px;
+}
+#second-section-buying{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    float: right;
+    justify-content: right;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+#second-section-buying span{
+    margin-right: 30px;
+}
+#btn-pay{
+    color: white;
+    background: orangered;
+    border: none;
+    width: 250px;
+    height: 55px;
+}
+
+/*quantity-track*/
+.quantity-track{
+    width: 200px;
+    height: 35px;
+    border: .5px solid black;
+}
+.item-quan{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.decrease-item{
+    width: 25%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+.increase-item{
+    width: 25%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.update-quan:hover{
+    background: #888888;
+    cursor: pointer;
+    color: white;
+}
+.info-items button{
+    color: white;
+    background: darkorange;
+    border: none;
+    padding: 6px;
+    border-radius: 2px;
+}
